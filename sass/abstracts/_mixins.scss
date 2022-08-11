@@ -1,0 +1,18 @@
+@mixin clearfix {
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+}
+@mixin style-link-text($col) {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $col;
+}
+
+@mixin buttonflat{
+  width: 1.6rem;
+  
+}
